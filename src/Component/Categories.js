@@ -7,7 +7,6 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import { Link } from "react-router-dom";
-
 const Categories = ({ data }) => {
   const { colorMode } = useColorMode();
   const bg = useColorModeValue("green.200", "blue.200");
